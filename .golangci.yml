@@ -69,6 +69,11 @@ issues:
     path: cmd/root.go
 
 linters-settings:
+  gci:
+    sections:
+      - standard
+      - default
+      - prefix(github.com/kong)
   gomodguard:
     blocked:
       modules:
